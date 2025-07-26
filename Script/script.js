@@ -234,42 +234,42 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function loadMoreProjects() {
     const moreProjects = `
-    //   <div class="portfolio-item padd-15">
-    //     <div class="portfolio-item-inner shadow-dark">
-    //       <div class="portfolio-img">
-    //         <img src="./images/Projects/todo.png" alt="">
-    //         <div class="portfolio-info">
-    //           <h4>ToDo App</h4>
-    //           <p>To-do list with add/delete functionality.</p>
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
+      <div class="portfolio-item padd-15">
+        <div class="portfolio-item-inner shadow-dark">
+          <div class="portfolio-img">
+            <img src="./images/Projects/todo.png" alt="">
+            <div class="portfolio-info">
+              <h4>ToDo App</h4>
+              <p>To-do list with add/delete functionality.</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    //   <div class="portfolio-item padd-15">
-    //     <div class="portfolio-item-inner shadow-dark">
-    //       <div class="portfolio-img">
-    //         <img src="./images/Projects/weather.png" alt="">
-    //         <div class="portfolio-info">
-    //           <h4>Weather App</h4>
-    //           <p>API-based live weather viewer.</p>
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
+      <div class="portfolio-item padd-15">
+        <div class="portfolio-item-inner shadow-dark">
+          <div class="portfolio-img">
+            <img src="./images/Projects/weather.png" alt="">
+            <div class="portfolio-info">
+              <h4>Weather App</h4>
+              <p>API-based live weather viewer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    //   <div class="portfolio-item padd-15">
-    //     <div class="portfolio-item-inner shadow-dark">
-    //       <div class="portfolio-img">
-    //         <img src="./images/Projects/notes.png" alt="">
-    //         <div class="portfolio-info">
-    //           <h4>Notes App</h4>
-    //           <p>Sticky notes with localStorage.</p>
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
-    // `;
+      <div class="portfolio-item padd-15">
+        <div class="portfolio-item-inner shadow-dark">
+          <div class="portfolio-img">
+            <img src="./images/Projects/notes.png" alt="">
+            <div class="portfolio-info">
+              <h4>Notes App</h4>
+              <p>Sticky notes with localStorage.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
     document
         .getElementById("portfolio-items")
         .insertAdjacentHTML("beforeend", moreProjects);
